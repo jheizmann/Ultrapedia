@@ -2,6 +2,7 @@
 <deploydescriptor>
     <global>
         <version>112</version>
+        <patchlevel>1</patchlevel>
         <id>ultrapedia</id>
         <license>GPL-v2</license>
         <vendor>Ontoprise GmbH</vendor>
@@ -27,7 +28,7 @@
     <configs>
         <new>
             <require name="ultrapedia"
-                file="extensions/UltraPedia/includes/UP_Initialize.php" />
+                file="extensions/Ultrapedia/includes/UP_Initialize.php" />
         </new>
     </configs>
 </deploydescriptor>
